@@ -1,0 +1,30 @@
+{
+  "name": "realestate-to-voiceflow-api",
+  "version": "1.0.0",
+  "description": "api to get real estate data from google sheets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sherif Butt",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherifButt/realestate-to-voiceflow-api.git"
+  },
+  "keywords": [
+    "realestae",
+    "api",
+    "voiceflow",
+    "googlesheets"
+  ],
+  "bugs": {
+    "url": "https://github.com/sherifButt/realestate-to-voiceflow-api/issues"
+  },
+  "homepage": "https://github.com/sherifButt/realestate-to-voiceflow-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "google-spreadsheet": "^4.1.0"
+  }
+}
